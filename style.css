@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +26,8 @@ nav {
 nav .logo {
     width: 160px;
     cursor: pointer;
+   margin-left: 10%;
+   margin-top: 5%;
 }
 
 nav .btn {
@@ -32,4 +36,61 @@ nav .btn {
     background: #333;
     padding: 15px 50px;
     border-radius: 30px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.content {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.content h2 {
+    color: red;
+    font-size: 34px;
+}
+
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -15px;
+}
+
+.content p {
+    max-width: 380px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+}
+
+.content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.color-select div {
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color-select {
+    display: flex;
+    margin-top: 30px;
+}
+
+.color-select #red {
+    background: red;
+}
+
+.color-select #blue {
+    background: blue;
+}
+
+.color-select #black {
+    background: #222;
 }
