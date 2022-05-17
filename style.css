@@ -28,7 +28,7 @@ nav .logo {
     width: 160px;
     cursor: pointer;
    margin-left: 10%;
-   margin-top: 5%;
+   margin-top: 3%;
 }
 
 nav .btn {
@@ -38,7 +38,7 @@ nav .btn {
     padding: 15px 50px;
     border-radius: 30px;
     margin-right: 10%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .content {
